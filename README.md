@@ -32,9 +32,9 @@ We manually change the `lr` during training:
 - `0.01` for epoch `[40,60)`
 - `0.001` for epoch `[60,80)`
 
-First, use split_data.py to split the dataset 'fer2013.csv' into 'train.csv', 'val.csv' adn 'test.csv'
+First, use split_data.py to split the dataset `fer2013.csv` into `train.csv`, `val.csv` adn `test.csv`
 
-Start training traditional methods with 'python xxx.py' like 'python SVM.py'
+Start training traditional methods with `python xxx.py` like `python SVM.py`
 
-Start training deep learning methods with 'python main.py'
+Start training deep learning methods with `python main.py`
 Resume the deep training with `python main.py --resume --lr=0.01`
