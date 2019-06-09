@@ -1,4 +1,4 @@
-# Train Fer2013 with PyTorch
+# Train Fer2013 Classifiers
 
 We play with sklearn and Pytorch on the Fer2013 dataset.
 
@@ -32,7 +32,9 @@ We manually change the `lr` during training:
 - `0.01` for epoch `[40,60)`
 - `0.001` for epoch `[60,80)`
 
-First, use split_data.py to split the dataset `fer2013.csv` into `train.csv`, `val.csv` adn `test.csv`
+First, use split_data.py to split the dataset `fer2013.csv` into `train.csv`, `val.csv` and `test.csv`
+
+Then, put these three data files into data folder
 
 Start training traditional methods with `python xxx.py` like `python SVM.py`
 
