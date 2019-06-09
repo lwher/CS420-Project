@@ -22,7 +22,7 @@ def LoadDataSubset(data_csv):
 
 def LoadDataset():
     # data path
-    datasets_path = r'.\data\fer2013'
+    datasets_path = r'.\data'
     train_csv = os.path.join(datasets_path, 'train.csv')
     val_csv = os.path.join(datasets_path, 'val.csv')
     test_csv = os.path.join(datasets_path, 'test.csv')
