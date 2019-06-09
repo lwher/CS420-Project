@@ -1,0 +1,29 @@
+Traditional Machine Learning
+
+Method		Val	Test
+KNN(K=1)	41.26%	41.01%
+KNN(K=3)	35.55%	34.61%
+KNN(K=5)	34.38%	34.05%
+
+DecisionTree	29.26%	29.65%
+RandomForest	36.95%	36.67%
+
+SVM(linear)	34.98%	36.86%
+SVM(rbf)		42.46%	43.30%
+SVM(poly)	36.67%	37.28%
+
+MLP		43.72%	43.63%
+
+Deep Learning Network
+
+Network		Val	Test
+LeNet		55.64%	55.44%
+ResNet18	62.22%	63.61%
+ResNet50	62.72%	63.70%
+ResNeXt29 32x4d	61.83%	62.97%
+ResNeXt29 2x64d	62.58%	64.50%
+VGG16		63.94%	64.59%
+ShuffleNetV2 1x	64.28%	65.00%
+MobileNetV2	64.53%	65.39%
+GoogleNet	64.64%	66.93%
+DenseNet121	67.46%	68.26%
